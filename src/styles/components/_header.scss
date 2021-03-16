@@ -1,0 +1,35 @@
+.header {
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  padding: 32px 0;
+  width: 100%;
+  z-index: 5;
+
+  &-logo {
+    font-size: $font-logo;
+    cursor: pointer;
+  }
+  &-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  &-btn {
+    padding: 11px 15px;
+    font-size: 16px;
+    background: transparent;
+    color: $white;
+    border: 1px solid $white;
+    border-radius: 6%;
+    cursor: pointer;
+    transition: 0.2s;
+    &:focus,
+    &:hover {
+      outline: none;
+      background: $light;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@import "./normalize.scss";
+@import "./variables.scss";
+
+@import "./components/header";
+@import "./components/swiper";
+
+@font-face {
+  font-family: 'BebasNeue';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/BebasNeueRegular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/BebasNeueRegular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  color: $white;
+  font-size: $font-main;
+}

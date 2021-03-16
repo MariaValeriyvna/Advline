@@ -1,0 +1,16 @@
+{
+  "name": "controltask",
+  "version": "1.0.0",
+  "description": "Leads",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html"
+  },
+  "author": "MalevanayaMV",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "swiper": "^6.5.0"
+  }
+}
