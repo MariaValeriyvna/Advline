@@ -8,6 +8,7 @@ SPA для LEADS.SU, на странице слайдер с fade effectom
 ```
   SCSS
   Parcel
+  Swiperjs
 ```
 ***
 ## Установка

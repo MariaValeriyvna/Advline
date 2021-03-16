@@ -16,9 +16,9 @@
 .body {
   position: relative;
   width: 100vw;
-  height: 100vh;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-style: normal;
   color: $white;
   font-size: $font-main;
+  overflow-x: hidden;
 }
