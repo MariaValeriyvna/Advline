@@ -11,7 +11,7 @@ SPA для LEADS.SU, на странице слайдер с fade effectom
 ```
 ***
 ## Установка
-[загрузка архива](https://github.com/MariaValeriyvna)
+[загрузка архива](https://github.com/MariaValeriyvna/Advline/archive/main.zip)
  * для установки зависимостей в паке проекта запустить  __npm install__
  * для запуска проекта __npm run start__
 
